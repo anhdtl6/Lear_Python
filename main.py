@@ -9,12 +9,12 @@ print("Số giây sau khi chuyển đổi là: ", int_hour ,"giờ",int_mimute,"
 # Bài 2: Chuyển đổi đơn vị độ dài
 print("Bạn hãy nhập vào độ dài km")
 leght = float(input())
-float_m= round(float(leght*1000))
-float_dm=round(float(leght*10000))
-float_cm=round(float(leght*100000))
-float_mm= round(float(leght*1000000))
-float_mile= round(float(leght/1.609344))
-float_inch= round(float(leght*1567839370.1))
+float_m= round(float(leght*1000),2)
+float_dm=round(float(leght*10000),2)
+float_cm=round(float(leght*100000),2)
+float_mm= round(float(leght*1000000),2)
+float_mile= round(float(leght/1.609344),2)
+float_inch= round(float(leght*1567839370.1),2)
 print("Độ dài sau khi quy đổi các đơn vị là:",float_m,"mét,",float_dm,"dm,",float_cm,"cm,",float_mm,"mm,", float_mile, "mile,", float_inch,"ich")
 
 # Bài 3: Chuyển đổi nhiệt độ
