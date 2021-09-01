@@ -6,13 +6,12 @@ int_b = input()
 print("Nhập số c: ")
 int_c = input()
 print("Các số bạn vừa nhập vào là: ",int_a,',', int_b,',', int_c)
-print("Số lớn nhất là: ")
-if (int_a>=int_b and int_a>=int_c):
-    print(int_a)
-elif(int_b>=int_a and int_b>=int_c):
-    print(int_b)
-else:
-    print(int_c)
+int_max = int_a
+if (int_b>int_max):
+    int_max=int_b
+elif(int_c>int_max):
+    int_max=int_c
+print("Số lớn nhất là: ", int_max)
 
 # Bài số 2: Chỉ số BMI
 print("Nhập vào chiều cao của bạn")
