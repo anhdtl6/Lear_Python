@@ -19,7 +19,7 @@ height = float(input())
 print("Nhập vào cân nặng của bạn")
 weight = float(input())
 
-bmi= weight/(height*height)
+bmi= round(weight/(height*height),2)
 print("Chỉ số BMI của bạn là: ", bmi)
 
 if(bmi<17):

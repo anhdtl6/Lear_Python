@@ -1,14 +1,14 @@
 # Bài 1: Định dạng thời gian
 print("Bạn hãy nhập vào số giây")
-second = int(input())
-int_hour = int(second)/36000
-int_mimute = int((int(second)/36000)/60)
-int_second = int(int((int(second)/36000)/60))
-if second<0:
+n = int(input())
+int_hours = round(n/3600,)
+int_minutes = round(n% 3660 /60,)
+int_second = round(n% 3600 %60,)
+if n<0:
     print("Bạn hãy nhập số nguyên dương nhé")
 else:
     {
-        print("Số giây sau khi chuyển đổi là: ", int_hour ,"giờ",int_mimute,"phút",int_mimute,"giây")
+        print("Số giây sau khi chuyển đổi là: ", int_hours ,"giờ",int_minutes,"phút",int_second,"giây")
     }
 
 # Bài 2: Chuyển đổi đơn vị độ dài
