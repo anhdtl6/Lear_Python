@@ -30,3 +30,5 @@ float_K= float(celcius+237.15)
 float_R= float((celcius+273.15)*9/5)
 
 print("Nhiệt độ sau khi chuyển đổi là: ",float_F,"độ Farenheit, ",float_K,"độ Kenven,",float_R,"độ Rankine")
+
+
