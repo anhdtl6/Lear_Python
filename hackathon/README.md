@@ -4,8 +4,7 @@ Nội dung: Project tổng hợp nội dung các phần OOP, Exception và Datab
 
 ## Game đánh bài (3 cây)
 
-Xây dựng game chơi bài 3 cây đơn giản, cho phép một số lượng người chơi nhất định tham gia. Trò chơi bao gồm 1 bộ bài (ở đây rút gọn còn 36 lá), mỗi lá bài có rank (A,2,3,4,5,6,7,8,9) và suit (spade, club, diamond và heart). 
-Mỗi màn chơi, mỗi người chơi sẽ được chia 3 lá bài theo thứ tự, và dựa trên số điểm để tìm ra người chiến thắng.
+Xây dựng game chơi bài 3 cây đơn giản, cho phép một số lượng người chơi nhất định tham gia. Trò chơi bao gồm 1 bộ bài (ở đây rút gọn còn 36 lá), mỗi lá bài có rank (A,2,3,4,5,6,7,8,9) và suit (spade, club, diamond và heart). Mỗi màn chơi, mỗi người chơi sẽ được chia 3 lá bài theo thứ tự, và dựa trên số điểm để tìm ra người chiến thắng.
 
 ## Yêu cầu:
 
